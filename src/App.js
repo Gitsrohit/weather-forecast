@@ -11,7 +11,7 @@ function App() {
       <div className="footer-info">
         
         | Designed & Developed by{" "}
-        <a target="_blank" href="https://www.gauravghai.dev/">
+        <a target="_blank" href="">
          Rohit UrbanGraphic
         </a>{" "}
         | 
