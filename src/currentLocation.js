@@ -171,7 +171,7 @@ class Weather extends React.Component {
               </div>
             </div>
           </div>
-          <Forcast icon={this.state.icon} weather={this.state.main} />
+          <Forcast icon={this.state.icon} weather={this.state.main} city={this.state.city} />
         </React.Fragment>
       );
     } else {

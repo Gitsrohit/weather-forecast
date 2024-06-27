@@ -9,7 +9,6 @@ iframe,
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
@@ -346,7 +345,12 @@ div#txt {
 .footer {
   padding-bottom: 20px;
 }
-
+.hh{
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  color: #eee;
+}
 .copyright p {
   color: #fff;
 }
@@ -618,6 +622,18 @@ div#txt {
   margin-bottom: 15px;
   position: relative;
   z-index: 2;
+}
+.search-box .cityList {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  max-height: 400px;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.9);
+  overflow-y: auto;
+}
+.search-box .cityList li{
+  cursor: pointer;
 }
 .search-box .img-box {
   background: rgb(255, 255, 255, 0.2);
