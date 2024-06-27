@@ -80,7 +80,7 @@ function Forcast(props) {
   function checkTime(i) {
     if (i < 10) {
       i = "0" + i;
-    } // add zero in front of numbers < 10
+    }
     return i;
   }
 
@@ -105,7 +105,7 @@ function Forcast(props) {
         />
       </div>
       <div className="today-weather">
-        <h4>{weather?.weather?.[0]?.main}</h4>
+        <h4 className="hh">{weather?.weather?.[0]?.main}</h4>
         <div className="search-box">
           <input
             type="text"
